@@ -21,7 +21,10 @@ var name = 'Tyler';
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 
-  //Code Here
+var getName = function() {
+	var name = prompt("What is your name?");
+	return name;
+}
 
 
 //Next Problem
@@ -31,7 +34,9 @@ var name = 'Tyler';
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  //Code Here
+  var welcome = function(name) {
+  	alert("Welcome " + getName());
+  }
 
 
 //Next problem
@@ -41,7 +46,8 @@ var name = 'Tyler';
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+  A parameter is what is used/created in a function : var fn = function (parameter)
+  An argument is what is used when calling the function: fn(argument)
 
 
 //Next problem
